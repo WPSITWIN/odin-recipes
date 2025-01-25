@@ -10,47 +10,52 @@ h1 {
 }
 .image {
     text-align: center;
-    padding: 10px;
+    margin: 25px;
 }
 .Subheadings {
     text-decoration: underline;
     background-color: pink;
     border: 3px solid white;
 
-    width: 90px;
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
 
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 7.5px;
 }
 .ingredients {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
-.ingredients ul {
+.ingredients ul, .Steps {
     border: 3px solid white;
     width: 200px;
     background-color: pink;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-div.Description-text, .Steps {
-    display: inline-block;
+div.Description-text {
     background-color: pink;
     border: 3px solid white;
+    width: 800px;
+
     padding-left: 10px;
     padding-right: 5px;
+    
+    margin-inline: auto;
 }
-/* I am trying to center a block element*/
+.Recipes {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 div.Steps {
-    display: inline-block;
     width: 500px;
-    margin-left: 10% auto;
     margin-bottom: 25px;
+    margin-inline: auto
 }
 a {
     display: block;
