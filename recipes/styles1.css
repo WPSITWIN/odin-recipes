@@ -1,7 +1,12 @@
 /* Chocolate chip cookies css*/
+body {
+    background-color: #f08799;
+}
 h1 {
     background-color: pink;
-    text-align: center;
+    border: 3px solid white;
+    width: fit-content;
+    margin: auto;
 }
 .image {
     text-align: center;
@@ -10,6 +15,7 @@ h1 {
 .Subheadings {
     text-decoration: underline;
     background-color: pink;
+    border: 3px solid white;
 
     width: 90px;
     margin-left: auto;
@@ -19,4 +25,29 @@ h1 {
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+div.ingredients {
+    display: inline-block;
+    border: 3px solid white;
+    width: 200px;
+    padding-right: 5px;
+    background-color: pink;
+}
+div.Description-text, .Steps {
+    display: inline-block;
+    background-color: pink;
+    border: 3px solid white;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+/* I am trying to center a block element*/
+div.Steps {
+    display: inline-block;
+    width: 500px;
+    margin-left: 10% auto;
+    margin-bottom: 25px;
+}
+a {
+    display: block;
+    text-align: center;
 }
