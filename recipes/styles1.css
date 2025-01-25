@@ -1,4 +1,19 @@
 /* Chocolate chip cookies css*/
-body {
-    background-color: red;
+h1 {
+    background-color: pink;
+    text-align: center;
+}
+.image {
+    text-align: center;
+    padding: 10px;
+}
+.Subheadings {
+    display: inline-block;
+    text-decoration: underline;
+    background-color: pink;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
 }

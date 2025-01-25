@@ -5,28 +5,23 @@
 body {
     background-color: pink;
 }
-
 h3 {
     background-color: #af8caf;
     font-weight: bold;
     font-size: 25px;
 }
-
 img {
     width: 400;
     height: auto;
 }
-
 #one {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 111, 135);
 }
-
 #two {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:blue
 }
-
 #three {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: green;
